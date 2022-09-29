@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'book',
+    'person'
 ]
 
 MIDDLEWARE = [
@@ -73,11 +75,15 @@ WSGI_APPLICATION = 'bookmanage.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
+# 192.168.235.128
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_bookmanage',
+        'USER': 'root',
+        'PASSWORD': '123456',
+        'HOST': '192.168.235.128',
+        'PORT': '3306',
     }
 }
 

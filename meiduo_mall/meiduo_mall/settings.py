@@ -76,10 +76,39 @@ WSGI_APPLICATION = 'meiduo_mall.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'django.db.backends.mysql', # 数据库引擎
+        'HOST': '192.168.235.128', # 数据库主机
+        'PORT': 3306, # 数据库端口
+        'USER': 'root', # 数据库用户名
+        'PASSWORD': '123456', # 数据库用户密码
+        'NAME': 'meiduo_mall' # 数据库名字
+    },
 }
+
+CACHES = {
+    "default": { # 默认
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.235.128:6379/0",
+        # "TIMEOUT": 300,  # 缓存保存时间
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            # "CONNECTION_POOL_KWARGS": {"max_connections": 100},
+            # "CULL_FREQUENCY": 2, # 缓存条数达到最大值时，删除1/2的缓存数据
+            # "PASSWORD": "123456"
+        }
+    },
+    "session": { # session
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.235.128:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+}
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"     # 使用CACHES哪个配置
+SESSION_COOKIE_AGE = 60*5   # session保存时间
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False # 关闭浏览器session是否随之过期
 
 
 # Password validation
