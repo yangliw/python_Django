@@ -13,9 +13,30 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+import os
+import sys
+
+from django.apps import apps
 from django.contrib import admin
-from django.urls import path
+from django.http import HttpResponse
+from django.urls import path, include
+
+# 测试日志
+
+from meiduo_mall.settings import BASE_DIR
+
+
+def log(request):
+    import logging
+    # 拿到的logger配置,创建日志记录器
+    logger = logging.getLogger('django')
+    logger.error('error')
+    return HttpResponse('log')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('log/',log),
+    path('', include('apps.users.urls')),
+    path('',include('biao.urls'))
 ]

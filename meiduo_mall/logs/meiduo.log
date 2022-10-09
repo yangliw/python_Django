@@ -1,0 +1,665 @@
+INFO 2022-09-29 20:31:42,107 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-29 20:31:42,908 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:10:13,024 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:10:56,036 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:11:46,394 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-30 00:11:47,054 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:13:48,443 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-30 00:13:49,166 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:15:45,333 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-30 00:15:46,042 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:16:42,672 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2022-09-30 00:16:43,349 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:18:52,050 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2022-09-30 00:18:52,754 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:19:03,511 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2022-09-30 00:19:04,199 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:22:44,515 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2022-09-30 00:22:45,270 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:36:51,175 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:37:56,204 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-30 00:37:59,491 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:41:08,125 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2022-09-30 00:41:08,792 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:49:05,129 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-30 00:49:05,878 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:50:57,869 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-30 00:50:58,561 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:52:07,709 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\urls.py changed, reloading.
+INFO 2022-09-30 00:52:08,419 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:53:17,748 autoreload 266 E:\Django\python_Django\meiduo_mall\meiduo_mall\settings.py changed, reloading.
+INFO 2022-09-30 00:53:18,422 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:53:23,962 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-09-30 00:53:25,810 log 241 Not Found: /
+WARNING 2022-09-30 00:53:25,812 basehttp 187 "GET / HTTP/1.1" 404 2324
+WARNING 2022-09-30 00:53:25,941 log 241 Not Found: /favicon.ico
+WARNING 2022-09-30 00:53:25,942 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2375
+INFO 2022-09-30 00:53:53,288 basehttp 187 "GET /register HTTP/1.1" 301 0
+INFO 2022-09-30 00:53:53,316 basehttp 187 "GET /register/ HTTP/1.1" 200 3
+INFO 2022-09-30 00:54:31,345 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 00:54:32,021 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-09-30 00:54:32,292 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 10, in get
+    print(user1.username)
+AttributeError: 'QuerySet' object has no attribute 'username'
+ERROR 2022-09-30 00:54:32,296 basehttp 187 "GET /register/ HTTP/1.1" 500 72629
+ERROR 2022-09-30 00:54:36,740 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 10, in get
+    print(user1.username)
+AttributeError: 'QuerySet' object has no attribute 'username'
+ERROR 2022-09-30 00:54:36,742 basehttp 187 "GET /register/ HTTP/1.1" 500 72629
+INFO 2022-09-30 00:58:13,114 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 00:58:13,835 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 00:58:17,694 basehttp 187 "GET /register/ HTTP/1.1" 200 3
+INFO 2022-09-30 10:59:30,040 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 11:03:39,484 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 11:04:15,477 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-09-30 11:04:20,221 log 241 Not Found: /
+WARNING 2022-09-30 11:04:20,222 basehttp 187 "GET / HTTP/1.1" 404 2324
+WARNING 2022-09-30 11:04:20,356 log 241 Not Found: /favicon.ico
+WARNING 2022-09-30 11:04:20,356 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2375
+INFO 2022-09-30 11:04:33,078 basehttp 187 "GET /register/ HTTP/1.1" 200 12
+INFO 2022-09-30 11:05:00,900 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:05:01,604 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 11:05:02,026 basehttp 187 "GET /register/ HTTP/1.1" 200 3
+INFO 2022-09-30 11:06:22,474 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:06:23,162 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 11:18:57,418 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-09-30 11:19:00,291 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:00,296 basehttp 187 "GET /register/ HTTP/1.1" 500 108539
+ERROR 2022-09-30 11:19:38,428 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:38,432 basehttp 187 "GET /register/ HTTP/1.1" 500 108680
+INFO 2022-09-30 11:19:38,693 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:19:39,392 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-09-30 11:19:42,926 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:42,930 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:45,059 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:45,062 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:45,782 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:45,786 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:46,470 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:46,474 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:46,999 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:47,004 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:47,624 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:47,628 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:48,006 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:48,010 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:48,179 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:48,182 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:19:48,350 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get('ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:19:48,354 basehttp 187 "GET /register/ HTTP/1.1" 500 108689
+ERROR 2022-09-30 11:20:33,435 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get(username='ylw1')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\sql\query.py", line 1404, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+ERROR 2022-09-30 11:20:33,440 basehttp 187 "GET /register/ HTTP/1.1" 500 108707
+INFO 2022-09-30 11:20:34,247 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:20:34,919 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 11:20:35,328 basehttp 187 "GET /register/ HTTP/1.1" 200 3
+INFO 2022-09-30 11:20:49,871 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:20:50,549 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-09-30 11:20:51,102 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\apps\users\views.py", line 9, in get
+    user_all = User.objects.get(username='ylw')
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+apps.users.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2022-09-30 11:20:51,105 basehttp 187 "GET /register/ HTTP/1.1" 500 81222
+INFO 2022-09-30 11:22:44,902 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:22:45,611 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 11:22:46,274 basehttp 187 "GET /register/ HTTP/1.1" 200 3
+INFO 2022-09-30 11:55:36,230 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:55:36,914 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 11:56:55,593 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 11:56:56,279 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:01:30,166 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-09-30 12:04:36,429 log 241 Internal Server Error: /register
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-09-30 12:04:36,431 basehttp 187 "POST /register HTTP/1.1" 500 67535
+INFO 2022-09-30 12:07:55,463 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:07:56,181 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:08:43,532 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:08:44,246 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:08:58,145 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:08:58,802 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:09:28,466 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:09:29,141 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:09:43,250 basehttp 187 "GET /register?username=ylw1 HTTP/1.1" 301 0
+ERROR 2022-09-30 12:09:43,292 log 241 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'username'
+ERROR 2022-09-30 12:09:43,294 basehttp 187 "GET /register/?username=ylw1 HTTP/1.1" 500 69393
+INFO 2022-09-30 12:11:26,666 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:11:27,376 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:11:29,821 basehttp 187 "GET /register/?username=ylw1 HTTP/1.1" 200 3
+INFO 2022-09-30 12:11:45,559 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:11:46,246 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:12:02,279 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:12:02,966 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-09-30 12:12:27,679 log 241 Internal Server Error: /register
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/register/?username=ylw1 (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-09-30 12:12:27,681 basehttp 187 "POST /register?username=ylw1 HTTP/1.1" 500 67995
+ERROR 2022-09-30 12:16:58,028 log 241 Internal Server Error: /register
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-09-30 12:16:58,030 basehttp 187 "POST /register HTTP/1.1" 500 67696
+ERROR 2022-09-30 12:18:41,692 log 241 Internal Server Error: /register
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-09-30 12:18:41,695 basehttp 187 "POST /register HTTP/1.1" 500 67775
+ERROR 2022-09-30 12:19:38,322 log 241 Internal Server Error: /register
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2022-09-30 12:19:38,325 basehttp 187 "POST /register HTTP/1.1" 500 67696
+INFO 2022-09-30 12:21:17,381 basehttp 187 "POST /register/ HTTP/1.1" 200 10
+INFO 2022-09-30 12:21:36,887 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\urls.py changed, reloading.
+INFO 2022-09-30 12:21:37,590 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-09-30 12:21:38,799 log 241 Not Found: /register/
+WARNING 2022-09-30 12:21:38,800 basehttp 187 "POST /register/ HTTP/1.1" 404 2369
+WARNING 2022-09-30 12:21:39,848 log 241 Not Found: /register/
+WARNING 2022-09-30 12:21:39,849 basehttp 187 "POST /register/ HTTP/1.1" 404 2369
+INFO 2022-09-30 12:21:59,641 basehttp 187 "POST /register HTTP/1.1" 200 10
+INFO 2022-09-30 12:23:29,749 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:23:30,445 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:23:30,981 basehttp 187 "POST /register HTTP/1.1" 200 13
+INFO 2022-09-30 12:23:55,335 basehttp 187 "POST /register HTTP/1.1" 200 13
+INFO 2022-09-30 12:27:34,413 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:27:35,177 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:28:43,894 basehttp 187 "POST /register HTTP/1.1" 200 13
+INFO 2022-09-30 12:28:53,964 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:28:54,655 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:28:56,124 basehttp 187 "POST /register HTTP/1.1" 200 13
+INFO 2022-09-30 12:32:24,196 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:32:24,899 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:32:50,317 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:32:51,031 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:35:55,034 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:35:55,728 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:36:51,300 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:36:52,014 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:37:58,190 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:37:58,952 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:40:21,451 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:40:41,080 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:40:45,818 basehttp 187 "POST /register HTTP/1.1" 200 64
+INFO 2022-09-30 12:42:06,760 basehttp 187 "POST /register HTTP/1.1" 200 60
+INFO 2022-09-30 12:42:12,936 basehttp 187 "POST /register HTTP/1.1" 200 15
+INFO 2022-09-30 12:43:58,220 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:43:58,946 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:52:49,279 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:52:52,908 basehttp 187 "POST /register HTTP/1.1" 200 60
+INFO 2022-09-30 12:53:12,761 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:53:13,508 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:53:16,093 basehttp 187 "POST /register HTTP/1.1" 200 57
+INFO 2022-09-30 12:54:08,410 basehttp 187 "POST /register HTTP/1.1" 200 57
+INFO 2022-09-30 12:55:43,601 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:55:44,335 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 12:55:45,090 basehttp 187 "POST /register HTTP/1.1" 200 57
+INFO 2022-09-30 12:55:59,834 basehttp 187 "POST /register HTTP/1.1" 200 57
+INFO 2022-09-30 12:56:42,173 basehttp 187 "POST /register HTTP/1.1" 200 57
+INFO 2022-09-30 12:57:03,168 basehttp 187 "POST /register HTTP/1.1" 200 50
+INFO 2022-09-30 12:59:38,772 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 12:59:39,485 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 13:00:11,130 autoreload 266 E:\Django\python_Django\meiduo_mall\apps\users\views.py changed, reloading.
+INFO 2022-09-30 13:00:11,860 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-09-30 13:00:32,460 basehttp 187 "POST /register HTTP/1.1" 200 52
+INFO 2022-09-30 13:00:57,857 basehttp 187 "POST /register HTTP/1.1" 200 50
+INFO 2022-10-07 13:03:47,988 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:01:25,070 autoreload 677 Watching for file changes with StatReloader
+WARNING 2022-10-07 16:01:39,202 log 241 Not Found: /
+WARNING 2022-10-07 16:01:39,203 basehttp 187 "GET / HTTP/1.1" 404 2474
+WARNING 2022-10-07 16:01:39,343 log 241 Not Found: /favicon.ico
+WARNING 2022-10-07 16:01:39,344 basehttp 187 "GET /favicon.ico HTTP/1.1" 404 2525
+INFO 2022-10-07 16:01:49,062 basehttp 187 "GET /test HTTP/1.1" 200 3
+INFO 2022-10-07 16:02:31,622 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:02:32,411 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:02:46,354 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:02:47,128 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:02:57,947 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:02:58,718 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:02:58,970 basehttp 187 "GET /test HTTP/1.1" 200 3
+INFO 2022-10-07 16:03:49,406 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:03:50,178 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:03:54,671 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:03:55,452 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:04:06,258 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:04:07,021 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:04:07,908 basehttp 187 "GET /test HTTP/1.1" 200 3
+INFO 2022-10-07 16:04:37,702 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:04:38,460 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:04:58,696 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:04:59,482 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:05:17,545 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:05:18,292 autoreload 677 Watching for file changes with StatReloader
+ERROR 2022-10-07 16:05:23,462 log 241 Internal Server Error: /test
+Traceback (most recent call last):
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Django\python_Django\bookmanage\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Django\python_Django\meiduo_mall\biao\views.py", line 11, in get
+    cc = c.shu_set.all()
+AttributeError: 'QuerySet' object has no attribute 'shu_set'
+ERROR 2022-10-07 16:05:23,464 basehttp 187 "GET /test HTTP/1.1" 500 72327
+INFO 2022-10-07 16:05:50,214 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:05:50,947 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:06:37,166 autoreload 266 E:\Django\python_Django\meiduo_mall\biao\views.py changed, reloading.
+INFO 2022-10-07 16:06:37,872 autoreload 677 Watching for file changes with StatReloader
+INFO 2022-10-07 16:06:47,049 basehttp 187 "GET /test HTTP/1.1" 200 3
